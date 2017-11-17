@@ -91,41 +91,6 @@ function handleFragmentEvents(event, isShow) {
 	if(dataSet && dataSet.type) {
         let elements = document.querySelectorAll('.js-' + dataSet.type);
         handleShowPanelType(elements[dataSet.index], isShow); 
-        // switch(dataSet.type) {
-        //     case "hamburger": 
-        //         let panels = document.querySelectorAll('.js-hamburger');
-        //         handleShowPanelType(panels[dataSet.index], isShow); 
-        //         break;
-        //     case "popout-window":
-        //         let popoutWindows = document.querySelectorAll('.js-popout-window');
-        //         handleShowPanelType(popoutWindows[dataSet.index], isShow);
-        //         break;
-        //     case "popout-window-opacity":
-        //         let popoutOpacityWindows = document.querySelectorAll('.js-popout-window-opacity');
-        //         handleShowPanelType(popoutOpacityWindows[dataSet.index], isShow);
-        //         break;
-        //     case "running-box": 
-        //         let runningBox = document.querySelectorAll('.js-runing-box');
-        //         handleShowPanelType(runningBox[dataSet.index], isShow);
-        //         break;
-        //     case "all-is-animation":
-        //         let allIsAnimation = document.querySelectorAll('.js-all-is-animation');
-        //         handleShowPanelType(allIsAnimation[dataSet.index], isShow);
-        //         break;
-        //     case "text-animation":
-        //         let textAnimation = document.querySelectorAll('.js-text-animation');
-        //         handleShowPanelType(textAnimation[dataSet.index], isShow);
-        //         break;
-        //     case "fill-mode":
-        //         let fillMode = document.querySelectorAll('.js-fill-mode');
-        //         handleShowPanelType(fillMode[dataSet.index], isShow);
-        //         break;
-        //     case "display-box":
-        //         let displayBox = document.querySelectorAll('.js-display-box');
-        //         handleShowPanelType(displayBox[dataSet.index], isShow);
-        //         break;
-        //     default: break;
-        // }
     }
 }
 
