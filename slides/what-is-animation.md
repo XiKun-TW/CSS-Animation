@@ -129,7 +129,52 @@ HTML
 </section>
 <section>
 <p>啊...大脑一团浆糊，必须来个栗子</p>
-<div class="fragment">
+<pre><code data-trim data-noescape>
+HTML
+```
+<div class="text-animation-none">
+    none
+</div>
+<div class="text-animation-forwards">
+    forwards
+</div>
+<div class="text-animation-backwards">
+    backwards
+</div>
+<div class="text-animation-both">
+    both
+</div>
+```
+</code></pre>
+</section>
+<section>
+<pre><code data-trim data-noescape>
+@keyframes text-color-animation {
+    from {
+        color: red;
+    }
+    to {
+        color: blue;
+    }
+}
+.text-animation-none {
+    color: white;
+    animation-name: text-color-animation ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: none;
+    animation-delay: .5s;
+    margin-bottom: 1rem;
+}
+.text-animation-none.is-active {
+    animation-play-state: running;
+}
+...
+</code></pre>
+</section>
+<section>
+<div>
     <span class="font-color-symbol">起始值</span>
     <span class="font-color-symbol-red">第一帧</span>
     <span class="font-color-symbol-blue">最后一帧</span>

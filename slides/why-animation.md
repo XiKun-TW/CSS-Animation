@@ -20,7 +20,7 @@
 <section>
     <div class="example-panel">
         <div class="example-panel-individual">
-            <div class="hamburger js-hamburger">
+            <div class="hamburger js-showpanel">
                 <div class="hamburger-box">
                     <div class="hamburger-inner"></div>
                 </div>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="example-panel-individual">
-            <div class="hamburger js-hamburger hamburger-with-animation">
+            <div class="hamburger js-showpanel hamburger-with-animation">
                 <div class="hamburger-box">
                     <div class="hamburger-inner"></div>
                 </div>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="example-panel-individual">
-            <div class="hamburger js-hamburger hamburger-with-infinite">
+            <div class="hamburger js-showpanel hamburger-with-infinite">
                 <div class="hamburger-box">
                     <div class="hamburger-inner"></div>
                 </div>

@@ -151,7 +151,7 @@ HTML
 </section>
 <section>
     <div class="example-panel">
-        <div class="example-panel-individual js-runing-box">
+        <div class="example-panel-individual js-running-box">
             <div class="runing-box-container">
                 <div class="runing-box liner">
                     liner
@@ -201,7 +201,7 @@ HTML
 </section>
 <section>
     <div class="example-panel">
-        <div class="example-panel-individual js-runing-box">
+        <div class="example-panel-individual js-running-box">
             <div class="runing-box-container">
                 <div class="runing-box liner">
                     liner

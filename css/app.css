@@ -74,7 +74,7 @@ section .example-panel {
   display: flex;
   margin-top: 1rem;
   width: 100%;
-  min-height: calc(100vh - 700px);
+  min-height: calc(100vh - 400px);
   flex-direction: row;
   background-color: #3F3F3F;
   border-radius: 5px; }
