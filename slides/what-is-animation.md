@@ -91,7 +91,7 @@ HTML
 <section>
 4. animation-play-state: `<paused|running>`
 <pre><code data-trim data-noescape> //加点料
-.text-animation:is-active {
+.text-animation.is-active {
     animation-play-state: paused;
 }
 </code></pre>
